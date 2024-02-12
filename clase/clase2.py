@@ -20,8 +20,8 @@ class Libro:
         print(f"El autor de {self.titulo} ha sido cambiado a {nuevo_autor}.")
 
 # uso
-libro1 = Libro("El principito", "Antoine de Saint-Exupéry", 96)
+libro1 = Libro("mi libro", "josue", 120)
 libro1.mostrar_informacion()
-libro1.leer_pagina(10)
-libro1.cambiar_autor("Julio Cortázar")
+libro1.leer_pagina(20)
+libro1.cambiar_autor("profe")
 libro1.mostrar_informacion()

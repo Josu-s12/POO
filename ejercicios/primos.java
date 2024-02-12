@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumerosPrimos {
+public class primos {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -16,9 +16,9 @@ class Persona:
         print(f"Me he mudado a {self.ciudad}.")
 
 # uso
-persona1 = Persona("Juan", 30, "Ciudad de México")
+persona1 = Persona("Josue", 20, "bogota")
 persona1.presentarse() 
 persona1.cumplir_anios()  
-persona1.cambiar_ciudad("Guadalajara")  
+persona1.cambiar_ciudad("medellin")  
 persona1.presentarse() 
 

@@ -1,10 +1,10 @@
 class Perro:#clase
-    def __init__(self,raza,nombre,color):#metodo
+    def __init__(self,raza,nombre,color):#atributos
         self.raza = raza
         self.nombre=nombre
         self.color=color
         
-    def getNombre(self):#atributos
+    def getNombre(self):#metodos
             return self.nombre
     def ladrar(self):
             print(f"{self.nombre} esta ladrando!")
